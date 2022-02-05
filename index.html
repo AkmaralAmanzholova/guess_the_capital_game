@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Amanzholova Akmaral 20200000</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" /> 
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="capital_game.css" rel="stylesheet" />
+    <link rel="stylesheet" 
+          href="https://fonts.googleapis.com/css?family=Andada Pro">
+  </head>
+  <body>
+    <!--Your HTML here-->
+
+    <h2 id="title">Do you know the capital of this country?</h2>
+
+    <table id="center">
+      <tr>
+        <td class="header"> Country </td>
+        <td class="header" id="columnAdjustment"> Capital </td>
+        <td class="header"> Answer </td>
+      </tr>
+
+      <tr>
+        <td id="pr2__question"></td>
+        <td><input id="pr2__answer" type="text"/></td>
+        <td id="pr2__submit"><button type="button">See Answer</button></td>
+      </tr>
+
+      <tr id="noEntry">
+        <td class="countryMatch"> </td>
+        <td class="entry">No entry to show</td>
+        <td class="check"> </td>
+      </tr>
+
+      <!-- <tr class="wrongInput"> 
+        <td> United Sattes of America </td>
+        <td> <strike> New York </strike> </td>
+        <td> Washington, D.C </td>
+      </tr>  -->
+    </table>
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="./country_capital_pairs.js"></script>
+    <script src="./capital_game.js"></script>
+  </body>
+</html>
