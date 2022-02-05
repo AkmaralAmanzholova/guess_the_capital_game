@@ -1,2 +1,2 @@
 # Guess the capital
-This is a traning course for Javascript, HTML, and CSS
+This is a training course for Javascript, HTML, and CSS
